@@ -12,6 +12,12 @@
 		F7CFA1911E2E9EB000B74D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CFA18F1E2E9EB000B74D79 /* Main.storyboard */; };
 		F7CFA1931E2E9EB200B74D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CFA1921E2E9EB200B74D79 /* Assets.xcassets */; };
 		F7CFA1961E2E9EB200B74D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7CFA1941E2E9EB200B74D79 /* LaunchScreen.storyboard */; };
+		F7CFA1A01E2EA0EA00B74D79 /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CFA19F1E2EA0EA00B74D79 /* FirstTabViewController.swift */; };
+		F7CFA1A21E2EA11E00B74D79 /* SecondTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CFA1A11E2EA11E00B74D79 /* SecondTabViewController.swift */; };
+		F7CFA1A61E2EA2C800B74D79 /* ico_home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CFA1A41E2EA2C800B74D79 /* ico_home@2x.png */; };
+		F7CFA1A71E2EA2C900B74D79 /* ico_home@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CFA1A51E2EA2C800B74D79 /* ico_home@3x.png */; };
+		F7CFA1AA1E2EA35900B74D79 /* ico_search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CFA1A81E2EA35900B74D79 /* ico_search@2x.png */; };
+		F7CFA1AB1E2EA35900B74D79 /* ico_search@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F7CFA1A91E2EA35900B74D79 /* ico_search@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		F7CFA1921E2E9EB200B74D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7CFA1951E2E9EB200B74D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7CFA1971E2E9EB200B74D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7CFA19F1E2EA0EA00B74D79 /* FirstTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstTabViewController.swift; path = ../FirstTabViewController.swift; sourceTree = "<group>"; };
+		F7CFA1A11E2EA11E00B74D79 /* SecondTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTabViewController.swift; sourceTree = "<group>"; };
+		F7CFA1A41E2EA2C800B74D79 /* ico_home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_home@2x.png"; sourceTree = "<group>"; };
+		F7CFA1A51E2EA2C800B74D79 /* ico_home@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_home@3x.png"; sourceTree = "<group>"; };
+		F7CFA1A81E2EA35900B74D79 /* ico_search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_search@2x.png"; sourceTree = "<group>"; };
+		F7CFA1A91E2EA35900B74D79 /* ico_search@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ico_search@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,28 @@
 		F7CFA18A1E2E9EAE00B74D79 /* UITabBarApp */ = {
 			isa = PBXGroup;
 			children = (
+				F7CFA1A31E2EA25400B74D79 /* images */,
 				F7CFA18B1E2E9EAF00B74D79 /* AppDelegate.swift */,
+				F7CFA19F1E2EA0EA00B74D79 /* FirstTabViewController.swift */,
 				F7CFA18D1E2E9EAF00B74D79 /* ViewController.swift */,
 				F7CFA18F1E2E9EB000B74D79 /* Main.storyboard */,
 				F7CFA1921E2E9EB200B74D79 /* Assets.xcassets */,
 				F7CFA1941E2E9EB200B74D79 /* LaunchScreen.storyboard */,
 				F7CFA1971E2E9EB200B74D79 /* Info.plist */,
+				F7CFA1A11E2EA11E00B74D79 /* SecondTabViewController.swift */,
 			);
 			path = UITabBarApp;
+			sourceTree = "<group>";
+		};
+		F7CFA1A31E2EA25400B74D79 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F7CFA1A81E2EA35900B74D79 /* ico_search@2x.png */,
+				F7CFA1A91E2EA35900B74D79 /* ico_search@3x.png */,
+				F7CFA1A41E2EA2C800B74D79 /* ico_home@2x.png */,
+				F7CFA1A51E2EA2C800B74D79 /* ico_home@3x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +151,11 @@
 			files = (
 				F7CFA1961E2E9EB200B74D79 /* LaunchScreen.storyboard in Resources */,
 				F7CFA1931E2E9EB200B74D79 /* Assets.xcassets in Resources */,
+				F7CFA1AB1E2EA35900B74D79 /* ico_search@3x.png in Resources */,
+				F7CFA1AA1E2EA35900B74D79 /* ico_search@2x.png in Resources */,
+				F7CFA1A71E2EA2C900B74D79 /* ico_home@3x.png in Resources */,
 				F7CFA1911E2E9EB000B74D79 /* Main.storyboard in Resources */,
+				F7CFA1A61E2EA2C800B74D79 /* ico_home@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7CFA1A01E2EA0EA00B74D79 /* FirstTabViewController.swift in Sources */,
 				F7CFA18E1E2E9EAF00B74D79 /* ViewController.swift in Sources */,
+				F7CFA1A21E2EA11E00B74D79 /* SecondTabViewController.swift in Sources */,
 				F7CFA18C1E2E9EAF00B74D79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
